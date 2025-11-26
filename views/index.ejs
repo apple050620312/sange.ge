@@ -21,17 +21,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
+            rel="stylesheet">
+    </noscript>
+    <link rel="stylesheet" href="/css/devicon.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </noscript>
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </noscript>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "吳鑽 (Wuzuan)",
       "url": "https://wuzuantw.com",
-      "image": "https://wuzuantw.com/images/avatar.png",
+      "image": "https://wuzuantw.com/images/avatar.webp",
       "sameAs": [
         "https://discord.com/users/835299786927898634",
         "https://github.com/DM-WuzuanTW/",
@@ -51,9 +65,9 @@
 <body>
     <div class="background-animation"></div>
 
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down">
         <div class="container">
-            <a href="#" class="logo">Wuzuan<span class="dot">.</span></a>
+            <a href="/" class="logo">Wuzuan<span class="dot">.</span></a>
             <ul class="nav-links">
                 <li><a href="#about">關於</a></li>
                 <li><a href="#skills">技能</a></li>
@@ -71,7 +85,7 @@
 
     <header id="about" class="hero">
         <div class="container hero-content">
-            <div class="hero-text">
+            <div class="hero-text" data-aos="fade-right">
                 <span class="greeting">Hello, I'm </span>
                 <h1>吳鑽 (Wuzuan)</h1>
                 <p class="subtitle">
@@ -92,10 +106,9 @@
                     <a href="#portfolio" class="btn btn-secondary">查看作品</a>
                 </div>
             </div>
-            <div class="hero-image">
+            <div class="hero-image" data-aos="fade-left">
                 <div class="avatar-wrapper">
-                    <img src="/images/avatar.png" alt="Wuzuan Avatar"
-                        onerror="this.src='https://ui-avatars.com/api/?name=Wu+Zuan&background=0D8ABC&color=fff&size=256'">
+                    <img src="/images/avatar.webp" alt="Wuzuan Avatar">
                 </div>
             </div>
         </div>
@@ -103,43 +116,45 @@
 
     <section id="skills" class="section">
         <div class="container">
-            <h2 class="section-title">技能與語言</h2>
+            <h2 class="section-title" data-aos="fade-up">技能與語言</h2>
             <div class="skills-grid">
                 <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer" class="skill-card"
-                    title="Node.js">
+                    title="Node.js" data-aos="zoom-in" data-aos-delay="100">
                     <i class="devicon-nodejs-plain colored"></i>
                     <span>Node.js</span>
                 </a>
                 <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" class="skill-card"
-                    title="Python">
+                    title="Python" data-aos="zoom-in" data-aos-delay="200">
                     <img src="/images/skills/python-svgrepo-com.svg" width="48" height="48" alt="Python Logo">
                     <span>Python</span>
                 </a>
                 <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer" class="skill-card"
-                    title="Java">
+                    title="Java" data-aos="zoom-in" data-aos-delay="300">
                     <i class="devicon-java-plain colored"></i>
                     <span>Java</span>
                 </a>
                 <a href="https://developer.mozilla.org/docs/Web/HTML" target="_blank" rel="noopener noreferrer"
-                    class="skill-card" title="HTML">
+                    class="skill-card" title="HTML" data-aos="zoom-in" data-aos-delay="400">
                     <i class="devicon-html5-plain colored"></i>
                     <span>HTML</span>
                 </a>
-                <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer" class="skill-card" title="PHP">
+                <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer" class="skill-card" title="PHP"
+                    data-aos="zoom-in" data-aos-delay="500">
                     <i class="devicon-php-plain colored"></i>
                     <span>PHP</span>
                 </a>
                 <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer" class="skill-card"
-                    title="TypeScript">
+                    title="TypeScript" data-aos="zoom-in" data-aos-delay="600">
                     <i class="devicon-typescript-plain colored"></i>
                     <span>TypeScript</span>
                 </a>
                 <a href="https://en.cppreference.com/w/c" target="_blank" rel="noopener noreferrer" class="skill-card"
-                    title="C">
+                    title="C" data-aos="zoom-in" data-aos-delay="700">
                     <i class="devicon-c-plain colored"></i>
                     <span>C</span>
                 </a>
-                <a href="https://isocpp.org/" target="_blank" rel="noopener noreferrer" class="skill-card" title="C++">
+                <a href="https://isocpp.org/" target="_blank" rel="noopener noreferrer" class="skill-card" title="C++"
+                    data-aos="zoom-in" data-aos-delay="800">
                     <i class="devicon-cplusplus-plain colored"></i>
                     <span>C++</span>
                 </a>
@@ -149,9 +164,10 @@
 
     <section id="portfolio" class="section">
         <div class="container">
-            <h2 class="section-title">精選作品</h2>
+            <h2 class="section-title" data-aos="fade-up">精選作品</h2>
             <div class="portfolio-grid">
-                <a href="https://github.com/DM-WuzuanTW/ubuntu" target="_blank" class="portfolio-card">
+                <a href="https://github.com/DM-WuzuanTW/ubuntu" target="_blank" class="portfolio-card"
+                    data-aos="fade-up" data-aos-delay="100">
                     <div class="card-icon">
                         <i class="fa-brands fa-ubuntu"></i>
                     </div>
@@ -163,8 +179,8 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </a>
-                <a href="https://github.com/DM-WuzuanTW/Windows-Graphics-Capture" target="_blank"
-                    class="portfolio-card">
+                <a href="https://github.com/DM-WuzuanTW/Windows-Graphics-Capture" target="_blank" class="portfolio-card"
+                    data-aos="fade-up" data-aos-delay="200">
                     <div class="card-icon">
                         <i class="devicon-windows8-original"></i>
                     </div>
@@ -176,7 +192,8 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </a>
-                <a href="https://github.com/DM-WuzuanTW/AI-recommend" target="_blank" class="portfolio-card">
+                <a href="https://github.com/DM-WuzuanTW/AI-recommend" target="_blank" class="portfolio-card"
+                    data-aos="fade-up" data-aos-delay="300">
                     <div class="card-icon">
                         <i class="fas fa-robot"></i>
                     </div>
@@ -188,7 +205,7 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </a>
-                <a href="/project/pterodactyl-bot" class="portfolio-card">
+                <a href="/project/pterodactyl-bot" class="portfolio-card" data-aos="fade-up" data-aos-delay="400">
                     <div class="card-icon">
                         <i class="fab fa-discord"></i>
                     </div>
@@ -206,18 +223,20 @@
 
     <section id="team" class="section">
         <div class="container">
-            <h2 class="section-title">團隊與組織</h2>
+            <h2 class="section-title" data-aos="fade-up">團隊與組織</h2>
             <div class="team-grid">
-                <a href="https://store.diamondhost.tw/" target="_blank" class="team-card">
+                <a href="https://diamondhost.tw/" target="_blank" class="team-card" data-aos="flip-left"
+                    data-aos-delay="100">
                     <div class="team-logo">
-                        <img src="/images/team/diamond-host.png" alt="鑽石託管">
+                        <img src="/images/team/diamond-host.webp" alt="鑽石託管">
                     </div>
                     <div class="team-info">
                         <h3>鑽石託管</h3>
                         <p>創始人</p>
                     </div>
                 </a>
-                <a href="https://host.asteroid.tw/" target="_blank" class="team-card">
+                <a href="https://host.asteroid.tw/" target="_blank" class="team-card" data-aos="flip-left"
+                    data-aos-delay="200">
                     <div class="team-logo">
                         <img src="/images/team/asteroid-host.png" alt="Asteroid Host">
                     </div>
@@ -232,27 +251,31 @@
 
     <section id="events" class="section">
         <div class="container">
-            <h2 class="section-title">參與活動</h2>
+            <h2 class="section-title" data-aos="fade-up">參與活動</h2>
             <div class="events-grid">
-                <a href="https://coscup.org/2025/" target="_blank" class="event-card">
+                <a href="https://coscup.org/2025/" target="_blank" class="event-card" data-aos="zoom-in"
+                    data-aos-delay="100">
                     <div class="event-logo">
                         <img src="/images/events/COSCUP.svg" alt="COSCUP 2025">
                     </div>
                     <span class="event-name">COSCUP 2025</span>
                 </a>
-                <a href="https://hitcon.org/2025/" target="_blank" class="event-card">
+                <a href="https://hitcon.org/2025/" target="_blank" class="event-card" data-aos="zoom-in"
+                    data-aos-delay="200">
                     <div class="event-logo">
                         <img src="/images/events/HITCON.svg" alt="HITCON 2025">
                     </div>
                     <span class="event-name">HITCON 2025</span>
                 </a>
-                <a href="https://ysyct.wda.gov.tw/" target="_blank" class="event-card">
+                <a href="https://ysyct.wda.gov.tw/" target="_blank" class="event-card" data-aos="zoom-in"
+                    data-aos-delay="300">
                     <div class="event-logo">
-                        <img src="/images/events/YS.png" alt="YS 青年論壇 2025">
+                        <img src="/images/events/YS.webp" alt="YS 青年論壇 2025">
                     </div>
                     <span class="event-name">YS 青年論壇 2025</span>
                 </a>
-                <a href="https://mopcon.org/2025/" target="_blank" class="event-card">
+                <a href="https://mopcon.org/2025/" target="_blank" class="event-card" data-aos="zoom-in"
+                    data-aos-delay="400">
                     <div class="event-logo">
                         <img src="/images/events/MOPCON.svg" alt="MOPCON 2025">
                     </div>
@@ -264,8 +287,8 @@
 
     <footer id="contact" class="footer">
         <div class="container">
-            <h2 class="section-title">保持聯繫</h2>
-            <div class="social-links">
+            <h2 class="section-title" data-aos="fade-up">保持聯繫</h2>
+            <div class="social-links" data-aos="fade-up" data-aos-delay="200">
                 <a href="https://discord.com/users/835299786927898634" target="_blank" class="social-btn"
                     title="Discord">
                     <i class="fab fa-discord"></i>
@@ -289,6 +312,14 @@
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
     <script src="/js/main.js"></script>
 </body>
 
