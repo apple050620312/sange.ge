@@ -141,6 +141,24 @@ ul {
     }
 }
 
+@media (max-width: 480px) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background-480w.webp');
+    }
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background-800w.webp');
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    .hero {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background-1200w.webp');
+    }
+}
+
 .hero-content {
     display: flex;
     align-items: center;
