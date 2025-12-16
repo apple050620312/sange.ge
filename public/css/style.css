@@ -126,7 +126,7 @@ ul {
     padding-top: 80px;
     position: relative;
     /* 50% Darker Overlay */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.webp');
     background-size: cover, cover;
     /* Fix overlay position, move only the image */
     background-position: center, center calc(50% + var(--bg-adjust-y));
