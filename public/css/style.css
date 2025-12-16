@@ -2,8 +2,8 @@
     --bg-color: #0a0a12;
     --card-bg: rgba(255, 255, 255, 0.05);
     --card-border: rgba(255, 255, 255, 0.1);
-    --primary-color: #00f2ff;
-    --secondary-color: #7000ff;
+    --primary-color: #ff6b81;
+    --secondary-color: #ff9ff3;
     --text-color: #e0e0e0;
     --text-muted: #a0a0a0;
     --font-main: 'Inter', 'Noto Sans TC', sans-serif;
@@ -47,8 +47,8 @@ ul {
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    background: radial-gradient(circle at 10% 20%, rgba(112, 0, 255, 0.1) 0%, transparent 20%),
-        radial-gradient(circle at 90% 80%, rgba(0, 242, 255, 0.1) 0%, transparent 20%);
+    background: radial-gradient(circle at 10% 20%, rgba(255, 107, 129, 0.1) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(255, 159, 243, 0.1) 0%, transparent 20%);
     filter: blur(50px);
 }
 
@@ -117,11 +117,28 @@ ul {
 
 /* Hero Section */
 .hero {
+    /* Adjust this number + or - px to move background up/down */
+    --bg-adjust-y: 200px;
+
     height: 100vh;
     display: flex;
     align-items: center;
     padding-top: 80px;
     position: relative;
+    /* 50% Darker Overlay */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpg');
+    background-size: cover, cover;
+    /* Fix overlay position, move only the image */
+    background-position: center, center calc(50% + var(--bg-adjust-y));
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    transition: background-position 0.5s ease;
+}
+
+@media (max-aspect-ratio: 4/3) {
+    .hero {
+        --bg-adjust-y: 0px;
+    }
 }
 
 .hero-content {
@@ -272,7 +289,7 @@ ul {
 /* Skills */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
     text-align: center;
 }
@@ -311,7 +328,7 @@ ul {
 /* Portfolio */
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 30px;
 }
 
@@ -322,9 +339,12 @@ ul {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     position: relative;
     overflow: hidden;
     transition: var(--transition);
+    height: 100%;
 }
 
 .portfolio-card:hover {
@@ -366,61 +386,31 @@ ul {
 
 /* Team */
 .team-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-}
-
-.team-card {
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    padding: 20px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    min-width: 300px;
-    transition: var(--transition);
-}
-
-.team-card:hover {
-    border-color: var(--secondary-color);
-}
-
-.team-logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #fff;
-}
-
-.team-logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.team-info h3 {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-}
-
-.team-info p {
-    color: var(--primary-color);
-    font-size: 0.9rem;
-}
-
-/* Events */
-.events-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
     gap: 30px;
 }
 
-.event-card {
+/* Specific overrides or aliases */
+.event-grid, .team-grid {
+    /* Extending default-grid behavior */
+    display: inherit;
+}
+
+.team-grid .default-title {
+    font-size: 1.2rem;
+}
+
+/* Default Grid System */
+.default-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    gap: 30px;
+}
+
+.default-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -430,34 +420,58 @@ ul {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     transition: var(--transition);
-    width: 180px;
+    width: 100%;
+    height: 100%;
 }
 
-.event-card:hover {
+.default-card:hover {
     background: rgba(255, 255, 255, 0.1);
     transform: scale(1.05);
 }
 
-.event-logo {
+.default-logo {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     overflow: hidden;
-    background: #fff;
-    padding: 5px;
+    margin-bottom: 5px;
+    background: transparent;
+    padding: 0;
 }
 
-.event-logo img {
+.default-logo img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
-.event-name {
+.default-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.default-title {
     font-weight: 600;
     text-align: center;
     font-size: 0.9rem;
+    white-space: nowrap;
+    margin-bottom: 5px;
 }
+
+.default-desc {
+    color: var(--primary-color);
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: auto;
+    padding-top: 5px;
+}
+
+
 
 /* Footer */
 .footer {
@@ -503,9 +517,10 @@ ul {
 /* Responsive */
 @media (max-width: 768px) {
     .hero-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
         gap: 40px;
+        justify-content: space-between;
     }
 
     .hero h1 {
@@ -516,12 +531,9 @@ ul {
         justify-content: center;
     }
 
-    .nav-links {
-        display: none;
-    }
-
     .hamburger {
         display: block;
+        z-index: 1001;
     }
 
     .avatar-wrapper {
@@ -531,16 +543,18 @@ ul {
 
     .nav-links {
         position: fixed;
-        top: 70px;
+        display: flex;
+        top: 0;
         right: -100%;
         width: 100%;
-        height: calc(100vh - 70px);
-        background: rgba(10, 10, 18, 0.95);
+        height: 100vh;
+        background: rgba(10, 10, 18, 0.98);
         backdrop-filter: blur(10px);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transition: var(--transition);
+        z-index: 1000;
     }
 
     .nav-links.active {

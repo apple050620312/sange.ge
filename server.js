@@ -7,7 +7,9 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.use(express.static(path.join(__dirname, 'public'), {
-    maxAge: '1y'
+    setHeaders: (res, path, stat) => {
+        res.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+    }
 }));
 
 app.get('/', (req, res) => {

@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const countdownElement = document.getElementById('countdown');
     if (countdownElement) {
-        const birthdayDay = 27;
+        const birthdayDay = 6;
 
         function updateCountdown() {
             const now = new Date();
             let year = now.getFullYear();
-            let birthday = new Date(year, 3, birthdayDay);
+            let birthday = new Date(year, 4, birthdayDay);
 
             if (now > birthday) {
                 birthday.setFullYear(year + 1);
