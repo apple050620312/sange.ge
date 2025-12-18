@@ -595,3 +595,34 @@ ul {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (max-width: 480px) {
+    .default-card {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        padding: 15px;
+    }
+
+    .default-logo {
+        margin-bottom: 0;
+        margin-right: 15px;
+        flex-shrink: 0;
+    }
+
+    .default-info {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .default-title {
+        text-align: left;
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+
+    .default-desc {
+        text-align: left;
+        margin-top: 0;
+    }
+}
