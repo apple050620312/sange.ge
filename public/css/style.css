@@ -125,29 +125,12 @@ ul {
 
 /* Hero Section */
 .hero {
-  /* Adjust this number + or - px to move background up/down */
-  --bg-adjust-y: 200px;
-
   height: 100vh;
   display: flex;
   align-items: center;
   padding-top: 80px;
   position: relative;
-  /* 50% Darker Overlay */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/background.webp");
-  background-size: cover, cover;
-  /* Fix overlay position, move only the image */
-  background-position: center, center calc(50% + var(--bg-adjust-y));
-  background-repeat: no-repeat, no-repeat;
   width: 100%;
-  transition: background-position 0.5s ease;
-}
-
-@media (max-aspect-ratio: 4/3) {
-  .hero {
-    --bg-adjust-y: 0px;
-  }
 }
 
 .hero-content {
