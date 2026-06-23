@@ -23,5 +23,47 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Fetch and render data
+    fetch('/data.json')
+        .then(res => res.json())
+        .then(data => {
+            const renderGrid = (containerSelector, items, isEvent) => {
+                const container = document.querySelector(containerSelector);
+                if (!container) return;
+                
+                const html = items.map(item => `
+                <a href="${item.url}" target="_blank" class="default-card ${isEvent ? 'event-card' : 'team-card'}" data-aos="zoom-in">
+                    <div class="default-logo">
+                        <img src="${item.logo}" alt="${item.title}">
+                    </div>
+                    <div class="default-info">
+                        <span class="default-title">${item.title}</span>
+                        <p class="default-desc">${item.desc}</p>
+                    </div>
+                </a>
+                `).join('');
+                
+                container.innerHTML = html;
+            };
+
+            renderGrid('#teams .team-grid', data.teams, false);
+            renderGrid('#events .event-grid', data.events, true);
+            renderGrid('#friends .team-grid', data.friends, false);
+
+            // Apply AOS delay and init
+            document.querySelectorAll('.default-grid').forEach(grid => {
+                Array.from(grid.children).forEach((child, index) => {
+                    const delay = ((index % 5) + 1) * 100;
+                    child.setAttribute('data-aos-delay', delay);
+                });
+            });
+
+            AOS.init({
+                duration: 800,
+                offset: 100,
+                once: true
+            });
+        })
+        .catch(err => console.error('Error loading data:', err));
 
 });

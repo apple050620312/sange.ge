@@ -1,0 +1,368 @@
+{
+  "teams": [
+    {
+      "url": "https://coffeehost.net/",
+      "logo": "/images/teams/coffeehost.webp",
+      "title": "Coffee Host 超大咖託管",
+      "desc": "負責人"
+    },
+    {
+      "url": "https://shdctw.com/",
+      "logo": "/images/teams/shdcloud.webp",
+      "title": "SHD Cloud 望夢雲",
+      "desc": "創始者"
+    },
+    {
+      "url": "https://www.vxbilibili.com/",
+      "logo": "/images/teams/bilifix.webp",
+      "title": "BiliFix",
+      "desc": "網域提供"
+    },
+    {
+      "url": "https://linktr.ee/san.ge.ge/",
+      "logo": "/images/teams/linktree.webp",
+      "title": "查看更多",
+      "desc": "Linktree"
+    }
+  ],
+  "events": [
+    {
+      "url": "https://www.computextaipei.com.tw/",
+      "logo": "/images/events/computex2026.webp",
+      "title": "COMPUTEX 2026",
+      "desc": "專業人士"
+    },
+    {
+      "url": "https://summit.g0v.tw/2026/",
+      "logo": "/images/events/g0vsummit2026.webp",
+      "title": "g0v Summit 2026",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://cybersec.ithome.com.tw/2026/",
+      "logo": "/images/events/cybersec2026.webp",
+      "title": "CYBERSEC 2026",
+      "desc": "參展者"
+    },
+    {
+      "url": "https://sitcon.org/2026",
+      "logo": "/images/events/sitcon2026.webp",
+      "title": "SITCON 2026",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://devfest-taipei.gdg.tw/2025/",
+      "logo": "/images/events/devfesttaipei2025.webp",
+      "title": "DevFest Taipei 2025",
+      "desc": "場務組"
+    },
+    {
+      "url": "https://mopcon.org/2025/",
+      "logo": "/images/events/mopcon2025.webp",
+      "title": "MOPCON 2025",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://www.infurnity.com/",
+      "logo": "/images/events/infurnity2025.webp",
+      "title": "獸無限 2025",
+      "desc": "市民"
+    },
+    {
+      "url": "https://www.taiwanpride.lgbt/",
+      "logo": "/images/events/taiwanpride2025.webp",
+      "title": "2025 台灣同志遊行",
+      "desc": "遊行者"
+    },
+    {
+      "url": "https://tw.pycon.org/2025/",
+      "logo": "/images/events/pycontw.webp",
+      "title": "PyCon TW 2025",
+      "desc": "場務組"
+    },
+    {
+      "url": "https://hitcon.org/2025/",
+      "logo": "/images/events/hitcon2025.webp",
+      "title": "HITCON 2025",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://coscup.org/2025/",
+      "logo": "/images/events/coscup2025.webp",
+      "title": "COSCUP 2025",
+      "desc": "場務組"
+    },
+    {
+      "url": "https://sitcon.camp/2025/",
+      "logo": "/images/events/sitconcamp2025.webp",
+      "title": "SITCON Camp 2025",
+      "desc": "學員"
+    },
+    {
+      "url": "https://www.computextaipei.com.tw/",
+      "logo": "/images/events/computex2025.webp",
+      "title": "COMPUTEX 2025",
+      "desc": "專業人士"
+    },
+    {
+      "url": "https://sitcon.org/2025/",
+      "logo": "/images/events/sitcon2025.webp",
+      "title": "SITCON 2025",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://mopcon.org/2024/",
+      "logo": "/images/events/mopcon2024.webp",
+      "title": "MOPCON 2024",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://tw.pycon.org/2024/",
+      "logo": "/images/events/pycontw.webp",
+      "title": "PyCon TW 2024",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://hitcon.org/2024/",
+      "logo": "/images/events/hitcon2024.webp",
+      "title": "HITCON 2024",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://coscup.org/2024/",
+      "logo": "/images/events/coscup2024.webp",
+      "title": "COSCUP 2024",
+      "desc": "會眾"
+    },
+    {
+      "url": "https://hackathon.sitcon.org/2024/",
+      "logo": "/images/events/sitconhackathon2024.webp",
+      "title": "SITCON Hackathon 2024",
+      "desc": "參賽者"
+    },
+    {
+      "url": "https://summit.g0v.tw/2024/",
+      "logo": "/images/events/g0vsummit2024.webp",
+      "title": "g0v Summit 2024",
+      "desc": "會眾"
+    }
+  ],
+  "friends": [
+    {
+      "url": "https://godwhite.com",
+      "logo": "https://www.gravatar.com/avatar/8c54138fe517cbf55217ae7cb7fe2a02?d=mp&s=200",
+      "title": "Godwhite",
+      "desc": "神白"
+    },
+    {
+      "url": "https://yimang.tw",
+      "logo": "https://www.gravatar.com/avatar/7608dd727148eac7e8f6d71bcb689de3?d=mp&s=200",
+      "title": "yimang",
+      "desc": "意麵"
+    },
+    {
+      "url": "https://bruh0422.xyz",
+      "logo": "https://www.gravatar.com/avatar/973e7ddc08d7e07ce113d08ef3975ebd?d=mp&s=200",
+      "title": "bruh0422",
+      "desc": "皮蛋"
+    },
+    {
+      "url": "https://wuzuantw.com",
+      "logo": "https://www.gravatar.com/avatar/7d325263108d4e286af9797fbe802e2b?d=mp&s=200",
+      "title": "Wuzuan",
+      "desc": "吳鑽"
+    },
+    {
+      "url": "https://leinuoawa.xyz",
+      "logo": "https://www.gravatar.com/avatar/cd21846d91e039ae2418bbe6033a762b?d=mp&s=200",
+      "title": "LeiNuo",
+      "desc": "雷諾"
+    },
+    {
+      "url": "https://asteroid.tw",
+      "logo": "https://www.gravatar.com/avatar/26862b2698440ed57af67742db7c40de?d=mp&s=200",
+      "title": "Asteroid",
+      "desc": "AD"
+    },
+    {
+      "url": "https://graycat.me/",
+      "logo": "https://www.gravatar.com/avatar/e4acaa094688eeb8da7964c92886eb0e?d=mp&s=200",
+      "title": "GrayCat",
+      "desc": "灰毛"
+    },
+    {
+      "url": "https://me.bandi.one",
+      "logo": "https://www.gravatar.com/avatar/c18842ff9c90c9816019de2501af5459?d=mp&s=200",
+      "title": "MrBandi",
+      "desc": "板弟"
+    },
+    {
+      "url": "https://elvismao.com",
+      "logo": "https://www.gravatar.com/avatar/b661697559d0db601e1295dfaf0f0727?d=mp&s=200",
+      "title": "Elvis Mao",
+      "desc": "毛哥"
+    },
+    {
+      "url": "https://lztduck.space",
+      "logo": "https://www.gravatar.com/avatar/1105fc8ec9364f8e8427b1e53f12e5ef?d=mp&s=200",
+      "title": "LZT",
+      "desc": "鴨子"
+    },
+    {
+      "url": "https://me.mapleml.top",
+      "logo": "https://www.gravatar.com/avatar/de88ef1f48576775cc5bbd384a4c0e04?d=mp&s=200",
+      "title": "MapleML",
+      "desc": "楓葉"
+    },
+    {
+      "url": "https://haco.tw",
+      "logo": "https://www.gravatar.com/avatar/c6f8ff0244e7943848cd4d5dc290c3d3?d=mp&s=200",
+      "title": "Haco",
+      "desc": "哈扣"
+    },
+    {
+      "url": "https://xinshou.tw/",
+      "logo": "https://www.gravatar.com/avatar/5d2b8031ebc5c6de86bc3ecb0485eaea?d=mp&s=200",
+      "title": "xinshoutw",
+      "desc": "新手"
+    },
+    {
+      "url": "https://xn--hoq.tw/",
+      "logo": "https://www.gravatar.com/avatar/4705a54a507ff27d4d1c65e2f99ae0a7?d=mp&s=200",
+      "title": "Cheerawab",
+      "desc": "企鵝"
+    },
+    {
+      "url": "https://owen0924.com",
+      "logo": "https://www.gravatar.com/avatar/9ada482bb8f8b17ad1c2129336d4d5f9?d=mp&s=200",
+      "title": "owen0924",
+      "desc": "歐文"
+    },
+    {
+      "url": "https://ptd.tw",
+      "logo": "https://www.gravatar.com/avatar/af891ecae4583425ff76a674179365a5?d=mp&s=200",
+      "title": "Perry Tang",
+      "desc": "糖豆魚"
+    },
+    {
+      "url": "https://fury.tw",
+      "logo": "https://www.gravatar.com/avatar/d8e81949c80888e88975c76bd1ad9e4b?d=mp&s=200",
+      "title": "Whitedragon",
+      "desc": "白龍"
+    },
+    {
+      "url": "https://skyhong.tw",
+      "logo": "https://www.gravatar.com/avatar/c44fd5c264e36e9140769f7908a1e686?d=mp&s=200",
+      "title": "Sky Hong",
+      "desc": "蓋蓋"
+    },
+    {
+      "url": "https://dawngs.com",
+      "logo": "https://www.gravatar.com/avatar/2920bab2d7633654e6d93bf7fd37d716?d=mp&s=200",
+      "title": "DawnGS",
+      "desc": "弦樂"
+    },
+    {
+      "url": "https://tershi.com",
+      "logo": "https://www.gravatar.com/avatar/6546cff68af8d3703d48366d8995243b?d=mp&s=200",
+      "title": "TershiXia",
+      "desc": "夏特稀"
+    },
+    {
+      "url": "https://kazan.tw",
+      "logo": "https://www.gravatar.com/avatar/093b3496782564d86dce4914cb410f99?d=mp&s=200",
+      "title": "Kazan",
+      "desc": "火山"
+    },
+    {
+      "url": "https://doong.me",
+      "logo": "https://www.gravatar.com/avatar/dabd937410b2456103331b851ac6665d?d=mp&s=200",
+      "title": "Dong",
+      "desc": "東東"
+    },
+    {
+      "url": "https://danielchen.me",
+      "logo": "https://www.gravatar.com/avatar/000f78a5c6e78d0d4eb2a4eca214608a?d=mp&s=200",
+      "title": "Daniel Chen",
+      "desc": "河馬"
+    },
+    {
+      "url": "https://blog.cre0809.com",
+      "logo": "https://www.gravatar.com/avatar/2939c4a5975e3df4ca62b98b65db67a8?d=mp&s=200",
+      "title": "CRE0809",
+      "desc": "西瑞"
+    },
+    {
+      "url": "https://blusewill.top/zh-tw",
+      "logo": "https://www.gravatar.com/avatar/15e83c39cb9a20ea95aa3a3431fc02df?d=mp&s=200",
+      "title": "blusewill",
+      "desc": "小品大大"
+    },
+    {
+      "url": "https://0944.me",
+      "logo": "https://www.gravatar.com/avatar/71bb9637eef43cd794f5bbbaf3de8e6b?d=mp&s=200",
+      "title": "0944",
+      "desc": "0955"
+    },
+    {
+      "url": "https://samhacker.xyz",
+      "logo": "https://www.gravatar.com/avatar/a3acb96faf7156d0d0d4b019ba8cdd96?d=mp&s=200",
+      "title": "SamHacker",
+      "desc": "御坂糸紗奈"
+    },
+    {
+      "url": "https://ttymayor.com",
+      "logo": "https://www.gravatar.com/avatar/fd96c75c62f60af058c45c15cf673465?d=mp&s=200",
+      "title": "ttymayor",
+      "desc": "彈塗魚"
+    },
+    {
+      "url": "https://giaoshou.hk",
+      "logo": "https://www.gravatar.com/avatar/1f8db8dc0fa14938622993da4ef29f7d?d=mp&s=200",
+      "title": "GiaoShou",
+      "desc": "高手"
+    },
+    {
+      "url": "https://blog.qian30.net",
+      "logo": "https://www.gravatar.com/avatar/cf20ca942cc8bceaecb0e83b720d007f?d=mp&s=200",
+      "title": "CHIEN",
+      "desc": "柴柴"
+    },
+    {
+      "url": "https://natsukawataoyuan.com/",
+      "logo": "https://www.gravatar.com/avatar/376310ad92121c795190d32dc9d180a8?d=mp&s=200",
+      "title": "NatsukawaTaoyuan",
+      "desc": "夏川桃源"
+    },
+    {
+      "url": "https://tofu1201.tw/",
+      "logo": "https://www.gravatar.com/avatar/a5feea217bd9642a8e45bab03d11ecd7?d=mp&s=200",
+      "title": "Tofu",
+      "desc": "豆腐"
+    },
+    {
+      "url": "https://jiaoyue.gay",
+      "logo": "https://www.gravatar.com/avatar/7a755c16d6fbdaeabc32ef0e6d96447c?d=mp&s=200",
+      "title": "JiaoYue",
+      "desc": "焦月"
+    },
+    {
+      "url": "https://longtai.org",
+      "logo": "https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a?d=mp&s=200",
+      "title": "LongTai",
+      "desc": "Jiang"
+    },
+    {
+      "url": "https://87x.uk/",
+      "logo": "https://www.gravatar.com/avatar/4c5c4502f36bd7f10c9cb893a843752f?d=mp&s=200",
+      "title": "October",
+      "desc": "十月"
+    },
+    {
+      "url": "https://kindle1126.xyz/",
+      "logo": "https://www.gravatar.com/avatar/04a22d1f08aae9aaef1c261ed0a40603?d=mp&s=200",
+      "title": "kindle1126",
+      "desc": "Kindle"
+    }
+  ]
+}
